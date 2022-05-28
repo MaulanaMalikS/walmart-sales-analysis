@@ -179,4 +179,5 @@ st.markdown("""
     Before we jump to conclusion, if you look at the source of the dataset, you may notice that i remove column MarkDown.  Markdown are anonymized data related to promotional markdowns that Walmart is running. Since it ist anonymized, i think it's not necesarry to include it here, because we can't get any insight anyway.<br>
     <br>
     My conclusion is that Holidays are the most influential attribute in sales, especially Thanksgiving. It is important to prepare for this event. On the other hand, other days may need adjustments so that the sales target can still be achieved.
+    The size of the store also matters, most people probably prefer to shop in large stores and large stores are also more able to sell a lot of goods.
 """, unsafe_allow_html=True)
