@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="assets/icon.png"
 )
 
-df = pd.read_csv('/Data/Pemrograman/Python/Artificial Intelligence/Streamlit/Latihan/walmart_sales_analysis/dataset/walmart.csv')
+df = pd.read_csv('dataset/walmart.csv')
 df['Date'] = pd.to_datetime(df['Date'])
 df.set_index('Date', inplace=True)
 
